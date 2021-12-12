@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "cubes";
+    src: url("./assets/fonts/BloxBrk-M7Ke.ttf");
+}
+
+@font-face {
+    font-family: "8bit";
+    src: url("./assets/fonts/ScreamWhenYoureReadyToDieRegular-6AjD.ttf");
+}
+
+.main {
+    background-color: darkslateblue;
+    text-align: center;
+}
+.logo_container {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20%;
+}
+
+.logo_box {
+    border-style: solid;
+    border-color: cyan;
+    border-width: 0.5px;
+    text-align: center;
+    font-family: "cubes";
+    color: greenyellow;
+    font-size: 600%;
+    box-shadow: magenta;
+  }
+
+.logo_sub {
+    font-family: "8bit";
+    color:magenta;
+    font-size: x-small;
+}
+
+.enter_button {
+    padding-top: 3%;
+
+}
+
+.button {
+    border-style: solid;
+    border-color: cyan;
+    border-width: 0.5px;
+    background-color: darkslateblue;
+    font-family: "cubes";
+    color: greenyellow;
+    font-size: medium;
+    text-align: center;
+    display: inline-block;
+  }
