@@ -1,11 +1,17 @@
 @font-face {
     font-family: "cubes";
-    src: url("./assets/fonts/BloxBrk-M7Ke.ttf");
+    src: url("../fonts/BloxBrk-M7Ke.ttf");
 }
 
 @font-face {
     font-family: "8bit";
-    src: url("./assets/fonts/ScreamWhenYoureReadyToDieRegular-6AjD.ttf");
+    src: url("../fonts/ScreamWhenYoureReadyToDieRegular-6AjD.ttf");
+}
+
+@keyframes border {
+    0% {box-shadow: 1px 1px cyan;}
+    50% {box-shadow: 2px 2px chartreuse;}
+    100% {box-shadow: 3px 3px cyan;}
 }
 
 .main {
@@ -26,7 +32,11 @@
     font-family: "cubes";
     color: greenyellow;
     font-size: 600%;
-    box-shadow: magenta;
+    box-shadow: 5px 5px magenta;
+    animation-name: border;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
 
 .logo_sub {
@@ -50,4 +60,8 @@
     font-size: medium;
     text-align: center;
     display: inline-block;
+    animation-name: border;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
